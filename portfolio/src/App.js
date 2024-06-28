@@ -1,16 +1,13 @@
-import logo from './logo.svg';
+// src/App.js
+import React from 'react';
+import Navbar from './components/NavBar';
 import './App.css';
-import { MyNavBar } from './components/NavBar';
-import { Banner } from './components/Banner'
-import { Nav } from 'react-bootstrap';
-
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
-    <div className="App">  
-        <MyNavBar />
-        <Banner />
+    <div className="App">
+      <Navbar />
+      {/* Other components or content can go here */}
     </div>
   );
 }

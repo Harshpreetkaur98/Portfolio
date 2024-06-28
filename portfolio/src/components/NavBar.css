@@ -1,0 +1,58 @@
+/* src/Navbar.css */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  background-color: transparent; /* Change to the desired background color */
+  padding: 10px 0; /* Add padding to top and bottom */
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 0 20px; /* Add padding to the sides */
+}
+
+.logo {
+  width: 120px; /* Adjust size of logo container */
+  height: auto;
+}
+
+.harshpreet-logo {
+  width: 100%; /* Make the SVG logo responsive within its container */
+  height: auto;
+  fill: #E50914; /* Match Netflix red color */
+}
+
+.nav-links ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  margin: 0 15px; /* Adjust spacing between navigation items */
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: black; /* Adjust text color */
+  font-weight: lighter;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+.profile img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%; /* Make the profile image circular */
+}
