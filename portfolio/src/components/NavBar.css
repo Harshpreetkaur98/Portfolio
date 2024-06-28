@@ -3,11 +3,19 @@ body {
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
+  background-color: #000; /* Set background color for the entire page */
+  background-image: url('../Images-Netflix/main-background-image.jpg'); /* Optional: Background image URL */
+  background-size: cover; /* Cover the entire viewport */
+  background-position: center top; /* Center the background image vertically and horizontally */
+  background-repeat: no-repeat; /* Prevent background image from repeating */
+  height: 70vh; /* Ensure the body takes up the full viewport height */
+  overflow: hidden; 
 }
 
 .navbar {
-  background-color: transparent; /* Change to the desired background color */
-  padding: 10px 0; /* Add padding to top and bottom */
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+  backdrop-filter: blur(0.1px); /* Apply a blur effect to the background */
+  padding: 10px 0;
 }
 
 .container {
@@ -43,7 +51,7 @@ body {
 
 .nav-links a {
   text-decoration: none;
-  color: black; /* Adjust text color */
+  color: white; /* Adjust text color */
   font-weight: lighter;
 }
 
