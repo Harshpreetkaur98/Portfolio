@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from './components/NavBar';
-import './App.css'; // Add global styles if needed
+import './App.css'; 
 import Experience from './components/Experience';
 
 const App = () => {

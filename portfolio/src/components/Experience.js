@@ -1,42 +1,35 @@
 import React, { useState } from 'react';
-import './Experience.css';
 import Modal from './Modal';
+import './Experience.css';
 
 const Experience = () => {
-  const [selectedExperience, setSelectedExperience] = useState(null);
+  const [showModal, setShowModal] = useState(false);
+  const [modalContent, setModalContent] = useState('');
 
-  const experiences = [
-    { id: 1, title: "Experience 1", description: "Details about Experience 1" },
-    { id: 2, title: "Experience 2", description: "Details about Experience 2" },
-  ];
-
-  const handleClick = (experience) => {
-    setSelectedExperience(experience);
+  const handleOpenModal = (content) => {
+    setModalContent(content);
+    setShowModal(true);
   };
 
-  const closeModal = () => {
-    setSelectedExperience(null);
+  const handleCloseModal = () => {
+    setShowModal(false);
+    setModalContent('');
   };
 
   return (
-    <div className="experience-section">
+    <div className="experience">
       <h2>Experience</h2>
-      <div className="experience-grid">
-        {experiences.map(exp => (
-          <div key={exp.id} className="experience-block" onClick={() => handleClick(exp)}>
-            {exp.title}
-          </div>
-        ))}
-      </div>
-      {selectedExperience && (
-        <div className="modal">
-          <div className="modal-content">
-            <span className="close" onClick={closeModal}>&times;</span>
-            <h3>{selectedExperience.title}</h3>
-            <p>{selectedExperience.description}</p>
-          </div>
+      <div className="experience-blocks">
+        <div className="experience-block" onClick={() => handleOpenModal('Details about Experience 1')}>
+          Experience 1
         </div>
-      )}
+        <div className="experience-block" onClick={() => handleOpenModal('Details about Experience 2')}>
+          Experience 2
+        </div>
+      </div>
+      <Modal show={showModal} onClose={handleCloseModal} title="Experience Details">
+        {modalContent}
+      </Modal>
     </div>
   );
 };

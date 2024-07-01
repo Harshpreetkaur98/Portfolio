@@ -1,4 +1,4 @@
 - Adding the Programming Skills in the Home > More Info section.
 - Adding the Social Links in the Home > More Info section.
 - Adding the more info button on the main page's background image.
-- 
+- Change the background image to your code so something similar.

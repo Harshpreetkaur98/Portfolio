@@ -11,6 +11,16 @@ body {
     flex-direction: column;
 }
 
+
+.background-container {
+    position: relative;
+    height: 100vh; /* Full viewport height */
+    width: 100%;
+    background-image: url('./Images-Netflix/main-background-image.jpg');
+    background-size: cover;
+    background-position: center;
+    z-index: 1; /* Ensure background container is behind navbar and content */
+}
 .main-page {
     position: relative;
     height: 100vh; /* Full viewport height */
@@ -21,6 +31,7 @@ body {
     justify-content: center;
     align-items: center;
     color: #FFF;
+    z-index: 2;
     text-align: center;
 }
 
@@ -59,3 +70,4 @@ body {
     color: #333;
     min-height: 100vh; /* Ensure it takes full height of viewport */
 }
+
