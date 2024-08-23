@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.732d04ea.css",
+    "main.js": "/Portfolio/static/js/main.77bd3714.js",
+    "static/js/453.1407b060.chunk.js": "/Portfolio/static/js/453.1407b060.chunk.js",
+    "static/media/background-image.jpg": "/Portfolio/static/media/background-image.cad7e2dcfa7ceb06dbd7.jpg",
+    "static/media/Barclays-certification.png": "/Portfolio/static/media/Barclays-certification.fccc2020a0077eaa6249.png",
+    "static/media/insurify.ai.png": "/Portfolio/static/media/insurify.ai.61d1a82c514cdd2c10a9.png",
+    "static/media/mysql.png": "/Portfolio/static/media/mysql.5bfc24088380a8ae3ae2.png",
+    "static/media/udemy-certification.jpg": "/Portfolio/static/media/udemy-certification.85090ef28ab80a76d959.jpg",
+    "static/media/node.png": "/Portfolio/static/media/node.a74748d02b291ad9a71c.png",
+    "static/media/university-of-greenwich.jpg": "/Portfolio/static/media/university-of-greenwich.4d50904d8341b60ad7c5.jpg",
+    "static/media/main-background-image.jpg": "/Portfolio/static/media/main-background-image.9e9e1a66fff5994591dd.jpg",
+    "static/media/html.png": "/Portfolio/static/media/html.4a71b4f710e1861c30bb.png",
+    "static/media/JavaScript.png": "/Portfolio/static/media/JavaScript.f728ff9736b76fd4a675.png",
+    "static/media/React.png": "/Portfolio/static/media/React.f75e99ce10042aab3296.png",
+    "static/media/Java.png": "/Portfolio/static/media/Java.d4717d0329f1367d56a4.png",
+    "static/media/HARSHPREET-logo.png": "/Portfolio/static/media/HARSHPREET-logo.c100301b5bbc45f82514.png",
+    "static/media/Python.png": "/Portfolio/static/media/Python.238f35b1a244277a769f.png",
+    "static/media/University-of-Greenwich-logo-SP.png": "/Portfolio/static/media/University-of-Greenwich-logo-SP.7e8b46be996723b199be.png",
+    "static/media/uogWis.png": "/Portfolio/static/media/uogWis.28b34dbdcb479fb294bd.png",
+    "static/media/Headstarter-AI.png": "/Portfolio/static/media/Headstarter-AI.7b51cd8d844c9c22b6bc.png",
+    "static/media/University-of-Greenwich-logo-Clearing.png": "/Portfolio/static/media/University-of-Greenwich-logo-Clearing.7eca659bc59e72944988.png",
+    "static/media/simonsGame.png": "/Portfolio/static/media/simonsGame.36d0cd04939ef45d3367.png",
+    "static/media/openai.png": "/Portfolio/static/media/openai.036bb3223456625f99af.png",
+    "static/media/GitHub.png": "/Portfolio/static/media/GitHub.20ecca4aa8eee8518c1a.png",
+    "static/media/Adventroz.png": "/Portfolio/static/media/Adventroz.d8720f3815d3cf4725d3.png",
+    "static/media/css.png": "/Portfolio/static/media/css.0ca65abfc0c427bc3506.png",
+    "static/media/University-of-Greenwich-logo-DE.png": "/Portfolio/static/media/University-of-Greenwich-logo-DE.773828aa2909bc856ae7.png",
+    "index.html": "/Portfolio/index.html",
+    "main.732d04ea.css.map": "/Portfolio/static/css/main.732d04ea.css.map",
+    "main.77bd3714.js.map": "/Portfolio/static/js/main.77bd3714.js.map",
+    "453.1407b060.chunk.js.map": "/Portfolio/static/js/453.1407b060.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.732d04ea.css",
+    "static/js/main.77bd3714.js"
+  ]
+}
